@@ -1,0 +1,128 @@
+body{
+    font: 16px/1.6em Arial, Helvetica, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+#login-id{
+    border: 1px solid #ccc;
+    width: 35%;
+    padding: 0 20px;
+    margin-left: 370px;
+    border-radius: 20px;
+}
+
+.form-group, h2{
+    padding: 10px;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group .password{
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.form-group p{
+    font-size: 13px;
+    text-align: right;
+    position: relative;
+    top: -38px;
+    padding-right: 20px;
+}
+
+.form-group input{
+    width: 90%;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="email"]{
+    position: relative;
+    top: -40px;
+}
+
+.form-group input[type="password"]{
+    position: relative;
+    top: -40px;
+    
+}
+
+.form-group button{
+    position: relative;
+    top: -20px;
+    background-color: #04aa6d;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    width: 98%;
+    border: none;
+    border-radius: 50px;
+}
+
+.form-group button:hover{
+    background-color: #059862;
+    cursor: pointer;
+}
+
+.form-group .button-2{
+    color: #000;
+    text-decoration: none;
+}
+
+.form-group .button-1{
+    color: #04aa6d;
+    text-decoration: none;
+}
+
+.f-pwd{
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.f-pwd a{
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#foot p , #foot p a{
+    color: #555;
+    text-align: center;
+    font-size: 13px;
+}
+
+#foot #help-id{
+    text-align: right;
+    position: relative;
+    top: -45px;
+    padding-right: 20px;
+}
+
+#foot #help-id a{
+    font-size: 18px;
+    background-color: #04aa6d;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#foot #help-id span{
+    border: 3px solid #fff;
+    padding: 5px;
+    border-radius: 70px;
+}
